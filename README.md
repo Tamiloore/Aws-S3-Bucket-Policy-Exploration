@@ -1,10 +1,10 @@
 # Aws-S3-Bucket-Policy-Exploration
 ## Project Description:
-This project will guide you through creating a simple S3 bucket, defining a policy to manage access permissions, create IAM Users and Groups, assigning roles to each groups.
+This project will guide you through creating a simple S3 bucket, defining a policy to manage access permissions, creating IAM Users and Groups, and assigning roles to each group.
 
 ## Project Task:
 1. Create an S3 Bucket
-2. Understanding S3 Bucket Resource base Policies
+2. Understanding S3 Bucket Resource Base Policies
 3. Create IAM users and Groups
 3. Policy Configuration 
 
@@ -33,7 +33,7 @@ This project will guide you through creating a simple S3 bucket, defining a poli
 ![7](https://github.com/user-attachments/assets/83da1c62-3417-4811-9253-12eae1ffc028)
 
 
-- You might get this prompt, S3 naming convention is unique (You can't have two bucket with same name in the whole of AWS infastructure)
+- You might get this prompt, S3 naming convention is unique (You can't have two buckets with the same name in the whole of AWS infrastructure)
 
 - Add some extra characters or texts
 
@@ -52,7 +52,7 @@ This project will guide you through creating a simple S3 bucket, defining a poli
 - Group 2 - Auditors [Ali, Josh]
 - Group 3 - Operations [ Samuel, Lovet]
 
-###  Assign different roles (policies) to each Groups
+###  Assign different roles (policies) to each group
 
 | Groups | Roles |
 | ----------- | ----------- |
@@ -60,7 +60,7 @@ This project will guide you through creating a simple S3 bucket, defining a poli
 | Auditors | Billing and cost Management |
 | Operation | Networking|
 
-### Each Groups has a lead, assign a Resource-based policies within Amazon S3 only to the lead of each groups
+### Each Group has a lead, assign Resource-based policies within Amazon S3 only to the lead of each group
 
 ### 2.1 Creating groups and assigning permissions 
 - Navigate to IAM
@@ -90,10 +90,10 @@ This project will guide you through creating a simple S3 bucket, defining a poli
 ![16](https://github.com/user-attachments/assets/81ac7d71-f0d6-4363-9886-ec660f75809e)
 
 
-### Apply same Steps to create the other groups
+### Apply the same Steps to create the other groups
 
 
-- ### 2.2 Creating and Adding users 
+- ### 2.2 Creating and Adding Users 
 
 ![21](https://github.com/user-attachments/assets/f3df1df1-72fb-4bc0-bbb4-f19912f0b177)
 
@@ -110,13 +110,13 @@ This project will guide you through creating a simple S3 bucket, defining a poli
 ![25](https://github.com/user-attachments/assets/701dcae9-1ce4-4deb-b286-c5bed5a530cf)
 
 
-### Apply same Steps to create the Users as you want 
+### Apply the same Steps to create the Users you want 
 
 ![26](https://github.com/user-attachments/assets/1fd93355-732b-4da6-8fea-c5062f8b670f)
 
 
 
-### 2.3 Assign a Resource-based policies within Amazon S3 only to the lead of each groups
+### 2.3 Assign Resource-based policies within Amazon S3 only to the lead of each group
 
 Assuming the leads are 
 
@@ -181,7 +181,7 @@ Assuming the leads are
 
 
 
-- You can edit the action, if you want 
+- You can edit the action if you want 
 
 ![30g](https://github.com/user-attachments/assets/58f50a18-7173-4f94-b234-a4c222c673cc)
 
